@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile menu</title>
+    <link rel="stylesheet" href="/third_party/font_unifont/split.css">
     <link rel="stylesheet" href="./style/style.css">
     <script src="./script/script.js" defer></script>
 </head>
 <body>
     <div class="wrapper">
         <h1>hey, this is a mobile menu practice</h1>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div id="content" class="circle"><h2>This is the next section</h2></div>
     </div>
     
     <div class="menu_button"></div>
-    <div class="mobile_menu"></div>
+    <div class="mobile_menu">
+        Menu
+        <ul>
+            <li><a href="#">Top</a></li>
+            <li><a href="#content">Bottom</a></li>
+        </ul>
+    </div>
     
 </body>
 </html>
