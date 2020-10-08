@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.mobile_menu {
+    width: 100vw;
+    height: 100vh;
+    background: #defd55;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+}
+
+.mobile_menu_transition {
+    transition: transform 500ms ease;
+}
+
+.mobile_menu_show {
+    transform: translateY(0%);
+}
+
+.menu_button {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #333b41;
+    top: 50px;
+    right: 50px;
+    z-index: 10;
+}
+
+.menu_button:hover {
+    background: #2a2f33;
+}
